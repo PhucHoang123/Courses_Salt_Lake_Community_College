@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <title>Pizza Parlor Contact Form</title> 
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		
+		<ul>
+		     <li><a href="index.html">Home</a></li>
+			 <li><a href="about.html">About</a></li>
+			 <li><a href="contact.html">Contact</a></li>
+			 <li><a href="order.html">Order</a></li>
+		</ul>
+		<h1 style="font-family: 'Space Mono', monospace;">Contact Phuc Hoang's Pizza</h1>
+		<h2>Enter your contact information below:</h2>
+		<div class="topping">
+		<p style="text-align: center;">
+		<form method="post" action="https://www.stonecoldprofessor.com/pizza-contact.php">
+		      <p><input name="first-name"placeholder="First name" type="text"><br></p>
+			  <p><input name="last-name"placeholder="Last name"type="text"><br></p>
+			  <p><input name="email"placeholder="Email Address"type="text"><br></p>
+			  <p><textarea name="message" placeholder="Insert your question here"></textarea><br></p>
+			  <input type="Submit"value="Send">
+			  <input type="Reset" value="Clear">
+		</form>
+		<p>
+		</div>
+		<div class="megumin">
+		<p>
+		<img width="300" height="300" src="img/pizza.jpg">
+		</p>
+		</div>
+	</body>
+</html>

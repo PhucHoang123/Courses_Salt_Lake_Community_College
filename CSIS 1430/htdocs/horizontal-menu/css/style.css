@@ -1,0 +1,27 @@
+ul li
+{ 
+   display: inline-block;
+   border: 10px solid lightyellow;
+}
+ul
+{
+   background-color: lightblue;
+   text-align: right;
+   font-size: 50px;
+}
+ul li a
+{
+	border: 5px solid lightblue;
+	justify-content: space-between;
+	padding: 20px;
+	text-decoration: none;
+	color: lightyellow;
+	font-family: 'Redressed', cursive;
+
+}
+ul li a:hover
+{
+	 background-color: lightyellow;
+	 color: lightblue;
+	 
+}

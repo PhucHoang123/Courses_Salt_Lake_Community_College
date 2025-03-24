@@ -1,0 +1,97 @@
+*{ margin:0; padding:0;}
+ul li
+{ 
+   display: inline-block;
+   border: 10px solid lightyellow;
+}
+ul
+{
+   background-color: lightblue;
+   text-align: right;
+   font-size: 50px;
+}
+ul li a
+{
+	margin:10px; 
+	padding:10px;
+	border: 5px solid lightblue;
+	justify-content: space-between;
+	padding: 20px;
+	text-decoration: none;
+	color: lightyellow;
+	font-family: 'Redressed', cursive;
+}
+h1
+{
+	
+	margin:0px; 
+	padding:10px;
+	text-align: center;
+	color: lightyellow;
+	background-color: lightblue;
+}
+h2
+{
+	margin:0px; 
+	padding:10px;
+	text-align: left;
+	color: lightblue;
+	background-color: lightyellow;
+}
+div.personal
+{
+	font-size: 20px;
+	margin:0px; 
+	padding:50px;
+	text-align: left;
+	color: lightyellow;
+	background-color: lightblue;
+}
+div.topping
+{
+	margin:0px; 
+	padding:50px;
+	text-align: left;
+	color: lightyellow;
+	background-color: lightblue;
+	font-size: 20px;
+}
+div.size
+{ 
+    margin:0px; 
+	padding:50px;
+	text-align: left;
+	color: lightyellow;
+	background-color: lightblue;
+	font-size: 20px;
+}
+	
+div.megumin
+{ 
+    margin:0px; 
+	padding:100px;
+	text-align: center;
+	background-color: lightblue;
+	
+}
+div.info
+{
+	display: block;
+	margin:0px; 
+	padding:10px;
+	text-align: left;
+	color: lightyellow;
+	background-color: lightblue;
+	font-size: 20px;
+}
+div.para1
+{
+	border: 5px solid lightyellow;
+	display: block;
+	margin:0px; 
+	padding:10px;
+	text-align: left;
+	color: lightyellow;
+	background-color: lightblue;
+	font-size: 20px;
+}

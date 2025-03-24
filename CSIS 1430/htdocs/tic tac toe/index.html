@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+   <head>
+     <title>Tic tac toe</title>
+	 <link type="text/css" rel="stylesheet" href="css/style.css">
+	 <script src="js/javascript.js" defer> </script>
+   </head>
+   <body onload="startGame();">
+     <h2 id="game-message">Tic tac toe</h2>
+	 <form action="javascript:void(0);">
+	     <p>Enter first player name</p>
+         <input type = "text" id = "guessbox1" class = "guessbox1">
+		 <p>Enter second player name</p>
+         <input type = "text" id = "guessbox2" class = "guessbox2">	
+         <input class="show" type = "submit" value = "Submit names" class = "guessSubmit" onclick="startGame();" id ="submitguess">		 
+     </form>
+	 <div id="game-board">
+        		
+     </div>  
+	
+	 <button onclick="startGame();" class= "hide" id = "Playagain">Play Again</button>
+   
+   
+   </body>
+</html>

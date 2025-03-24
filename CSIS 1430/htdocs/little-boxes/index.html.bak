@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <title>Small neighborhood</title> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style-2.css">
+	</head>
+	<body class="ground">
+		  <div class="house-1">
+           <div class="window-1"></div>
+           <div class="door-1"></div>
+          </div>
+		  
+		  <div class="house-2">
+           <div class="window-2"></div>
+           <div class="door-2"></div>
+          </div>
+		  
+		  <div class="house-3">
+           <div class="window-3"></div>
+           <div class="door-3"></div>
+          </div>
+		  
+		  <div class="house-4">
+           <div class="window-4"></div>
+           <div class="door-4"></div>
+          </div>
+		  
+		  <div class="house-5">
+           <div class="window-5"></div>
+           <div class="door-5"></div>
+          </div>
+		  
+		  <div class="road">
+		  </div>
+		  
+		  <div class="lake">
+		  </div>
+		  
+		  <div class="baseball-field"></div>
+		
+		
+		
+	</body>
+</html>

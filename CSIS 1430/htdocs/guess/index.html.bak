@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+   <head>
+     <title>The guessing game</title>
+	 <link type="text/css" rel="stylesheet" href="css/style.css">
+	 <script src="js/javascript.js"> </script>
+   </head>
+   <body onload="playagain()">
+   <h1>Guess the number</h1>
+   <p>Put your guess number from 1 - 99</p>
+        <p id="timer"></p>
+        <form action="javascript:void(0);">
+                <h2 id="message">Enter your number here: </h2>
+                <input type = "text" id = "guessbox" class = "guessbox">
+                <input class="show" type = "submit" value = "Submit guess" class = "guessSubmit" onclick="playgame()" id = "submitguess">
+				<input class="hide" id="Playagain" type="button" value="Playagain" onclick="playagain(); myTimer()"/>
+        </form>
+
+        <div id="textdisp"> </div>
+        <img id="x" src="img/play.jpg" width="300px" length="300px">
+        <div id = "guesslist">
+                <br>Wrong Guesses made list: <br>
+                <ul id="list"></ul>
+        </div>  
+   
+   
+   </body>
+</html>

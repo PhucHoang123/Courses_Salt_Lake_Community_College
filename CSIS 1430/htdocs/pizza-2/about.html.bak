@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <title>Pizza Parlor Contact Form</title> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		
+		<ul>
+		     <li><a href="index.html">Home</a></li>
+			 <li><a href="about.html">About</a></li>
+			 <li><a href="contact.html">Contact</a></li>
+			 <li><a href="order.html">Order</a></li>
+		</ul>
+		<h1 style="font-family: 'Space Mono', monospace;">About Phuc Hoang's Pizza</h1>
+		
+		<p style="color:lightyellow; font-size:20px; ">
+		My pizza company was built in 2022. It is about to run out of business. It is a one man company and I really don't know how to make a pizza. However, you can order pizza on my website. The pizza will never come though, cause I only barely know how to make this website so how can I possibly make a pizza?. Thank you for supporting the business though! </p>
+		<div class="megumin">
+		<p>
+		<img width="300" height="300" src="img/pizza.jpg">
+		</p>
+		</div>
+	</body>
+</html>

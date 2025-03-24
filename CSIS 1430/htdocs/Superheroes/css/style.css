@@ -1,0 +1,65 @@
+h2
+{
+	color: white;
+	font-size: 40px;
+}
+span.highlight-1
+{
+	color: white;
+	background-color: black;
+}
+span.highlight-2
+{
+	color: red;
+	background-color: yellow;
+}
+span.highlight-3
+{
+	color: red;
+	background-color: cyan;
+}
+span.highlight-4
+{
+	color: red;
+	background-color: black;
+}
+span.highlight-5
+{
+	color: yellow ;
+	background-color: red;
+}
+span.highlight-6
+{
+	color: red;
+	background-color: grey;
+}
+div.batman
+{
+	border: 10px dashed black;
+}
+div.ww
+{
+	border: 10px dashed yellow;
+}
+div.sp
+{
+	border: 10px dashed red;
+}
+div.sm
+{
+	border: 10px dashed black;
+	padding: 30px;
+	margin: 20px;
+}
+div.im
+{
+	border: 10px dashed red;
+	padding: 30px;
+	margin: 20px;
+}
+div.thor
+{
+	border: 10px dashed grey;
+	padding  : 30px;
+	margin: 20px;
+}

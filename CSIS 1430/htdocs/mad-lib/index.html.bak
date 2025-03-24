@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+   <head>
+     <title>Happy Birthday Program</title>
+	 <script src="js/javascript.js"> </script>
+   </head>
+   <body>
+     <p id="story1">
+	 </p>
+   
+   </body>
+</html>

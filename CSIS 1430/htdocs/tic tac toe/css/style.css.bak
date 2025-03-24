@@ -1,0 +1,42 @@
+* {margin: 0; padding: 0; box-sizing: border-box; user-select: none;}
+body
+{
+	background-color: lightblue;
+}
+
+h2#game-message
+{
+	font-size:70px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+div#game-board
+{
+overflow: hidden;
+margin: 20px auto;
+width: 650px;
+}
+div[id^="row-"] {clear: both;}
+div[id^="row-"] div
+{
+border: 10px solid lightyellow;
+height:200px;
+width:200px;
+float: left;
+
+}
+
+div#row-1 div {border-top: none; }
+div#row-3 div {border-bottom: none; }
+div[id^="row-"] div:first-child {border-left: none;}
+div[id^="row-"] div:last-child {border-right: none;}
+
+.hide {display:none; margin: 650px;}.
+.show {display:block; margin: 650px;}
+#Playagain
+{
+    position: absolute;
+    
+    left: 900px;
+    top: 750px;
+}

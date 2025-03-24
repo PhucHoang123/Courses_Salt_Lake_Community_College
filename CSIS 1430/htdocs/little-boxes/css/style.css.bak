@@ -1,0 +1,247 @@
+*{padding: 0; margin: 0;}
+/* solid border and green background to create a neighborhood with fence*/
+.ground
+{
+	background-color: green;
+	border: 20px solid brown;
+	height:100vh;
+	box-sizing: border-box;
+	padding:50px;
+}
+/*Create a yellow house with a brown door and one window*/
+div.house-1
+{
+	/* Move house-2 down and to the right to relocate */
+	top: 50px;
+	left: 50px; 
+	background-color: yellow;
+	border: 2px solid black;
+	height:100px;
+	Width: 100px;
+	box-sizing: border-box;
+	position: absolute;
+}
+div.window-1
+{
+	background-color: white;
+	border: 3px solid black;
+	height:20px;
+	Width: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	/* Move the window-1 to where its should be */
+	top: 30px;
+	right:60px;
+}
+div.door-1
+{
+	background-color: brown;
+	border: 3px solid black;
+	height:50px;
+	Width: 20px;
+	box-sizing: border-box;
+	position: relative;
+	/* Move the door-1 to where its should be */
+	top: 47px;
+	left:60px;
+}
+/*Create a yellow house with a brown door and one window*/
+div.house-2
+{
+	/* Move house-2 down and to the right to relocate */
+	top: 170px;
+	left:50px;
+	background-color: yellow;
+	border: 2px solid black;
+	height:100px;
+	Width: 100px;
+	box-sizing: border-box;
+	position: absolute;
+}
+div.window-2
+{
+	background-color: white;
+	border: 3px solid black;
+	height:20px;
+	Width: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	/* Move the window-2 to where its should be */
+	top: 30px;
+	right:60px;
+}
+div.door-2
+{
+	background-color: brown;
+	border: 3px solid black;
+	height:50px;
+	Width: 20px;
+	box-sizing: border-box;
+	position: relative;
+	/* Move the door-2 to where its should be */
+	top: 47px;
+	left:60px;
+}
+/*Create a yellow house with a brown door and one window*/
+div.house-3
+{
+	/* Move house-3 down and to the right to relocate */
+	top: 290px;
+	left: 50px;
+	background-color: yellow;
+	border: 2px solid black;
+	height:100px;
+	Width: 100px;
+	box-sizing: border-box;
+	position: absolute;
+}
+div.window-3
+{
+	background-color: white;
+	border: 3px solid black;
+	height:20px;
+	Width: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	/* Move the window-3 to where its should be */
+	top: 30px;
+	right:60px;
+}
+div.door-3
+{
+	background-color: brown;
+	border: 3px solid black;
+	height:50px;
+	Width: 20px;
+	box-sizing: border-box;
+	position: relative;
+	/* Move the door-3 to where its should be */
+	top: 47px;
+	left:60px;
+}
+/*Create a yellow house with a brown door and one window*/
+div.house-4
+{
+	/* Move house-4 down to relocate */
+	top: 170px;
+	left:300px;
+	background-color: yellow;
+	border: 2px solid black;
+	height:100px;
+	Width: 100px;
+	box-sizing: border-box;
+	position: absolute;
+}
+div.window-4
+{
+	background-color: white;
+	border: 3px solid black;
+	height:20px;
+	Width: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	/* Move the window-4 to where its should be */
+	top: 30px;
+	right:60px;
+}
+div.door-4
+{
+	background-color: brown;
+	border: 3px solid black;
+	height:50px;
+	Width: 20px;
+	box-sizing: border-box;
+	position: relative;
+	/* Move the door-4 to where its should be */
+	top: 47px;
+	left:60px;
+}
+/*Create a yellow house with a brown door and one window*/
+div.house-5
+{
+	/* Move house-5 down to relocate */
+	top: 50px;
+	left:300px;
+	background-color: yellow;
+	border: 2px solid black;
+	height:100px;
+	Width: 100px;
+	box-sizing: border-box;
+	position: absolute;
+}
+div.window-5
+{
+	background-color: white;
+	border: 3px solid black;
+	height:20px;
+	Width: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	/* Move the window-5 to where its should be */
+	top: 30px;
+	right:60px;
+}
+div.door-5
+{
+	background-color: brown;
+	border: 3px solid black;
+	height:50px;
+	Width: 20px;
+	box-sizing: border-box;
+	position: relative;
+	/* Move the door-5 to where its should be */
+	top: 47px;
+	left:60px;
+}
+/*Create a raod going through*/
+div.road
+{
+	position: absolute;
+	background-color: black;
+	border: 3px solid black;
+	height:700px;
+	Width: 60px;
+	left: 190px;
+    top: 0px;
+}	
+/*Create a 100x100px circle lake*/
+div.lake
+{
+	position: absolute;
+	background-color: blue;
+	border: 3px solid black;
+	border-radius: 50%;
+	width: 200px;
+	height:200px;
+/*Move the lake to where it should be*/	
+	left: 600px;
+	top: 300px;
+}
+/*Create a baseball-field with grey ground, rotated -45deg with a solid black border*/
+div.baseball-field
+{
+    position:absolute;
+    height:300px;
+    width:300px;
+    border-radius:1% 100% 1% 1%;
+    border:3px solid black;
+    background-color:green;
+    transform: rotate(-45deg);
+    border: 3px solid black;
+    background-color: grey;
+/*Move the baseball-field down and to the right*/	
+	top: 110px;
+    left:800px;
+}
+div.baseball-field-watch-station
+{
+    position: absolute;
+    background-color: green;
+    width: 90;
+	height: 90;
+	border-top: 50px solid transparent;
+	border-right: 100px solid #555;
+	border-bottom: 50px solid transparent;
+	top: 300px;
+	left: 1200px;
+}

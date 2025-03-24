@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <title>Pizza Parlor Contact Form</title> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		
+		<ul>
+		     <li><a href="index.html">Home</a></li>
+			 <li><a href="about.html">About</a></li>
+			 <li><a href="contact.html">Contact</a></li>
+			 <li><a href="order.html">Order</a></li>
+		</ul>
+		
+		<h1 style="font-family: 'Space Mono', monospace;">Welcome to Phuc Hoang's Pizza</h1>
+	    <p>
+		Welcome to my pizza store, we don't put pinapple on pizza but we do put the seafood on it. Our slogan is "Seek the unique" cause we make the Italian mad here.
+		</p>
+		
+		<div class="megumin">
+	    <p>
+		<img width="300" height="300" src="img/pizza.jpg">
+		</p>
+		</div>
+	</body>
+</html>
